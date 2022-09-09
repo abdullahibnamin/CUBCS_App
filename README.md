@@ -1,48 +1,50 @@
-# CUBCS_App
-
-<!---<style>
-    table, th, td{
+<style>
+    table,
+    th,
+    td {
         border: 1px solid black;
         border-collapse: collapse;
     }
-    th{
+
+    th {
         font-size: 18px;
         padding: 10px;
     }
-    img{
+
+    img {
         width: 240px;
         height: 480px;
         padding: 15px;
     }
-</style>---->
+</style>
 
 <table style="text-align: center;">
     <tr>
-      <th>Splash screen</th>
-      <th>Sign In</th>
-      <th>Sign Up</th>
+        <th>Splash screen</th>
+        <th>Sign In</th>
+        <th>Sign Up</th>
     </tr>
 
     <tr>
         <td><img src="/sample_images/splashScreen.png"></td>
         <td><img src="/sample_images/signin.png"></td>
         <td><img src="/sample_images/signup.png"></td>
-      </tr>
-  </table>
+    </tr>
+</table>
 
 
 <table>
     <tr>
-    <th>Home Screen</th>
-    <th>Activities</th>
-    <th>Activity Details</th>
+        <th>Home Screen</th>
+        <th>Activities</th>
+        <th>Activity Details</th>
 
-</tr>
-<tr>
-    <td><img src="/sample_images/homeScreen.png"></td>
-    <td><img src="/sample_images/activities.png"></td>
-    <td><img src="/sample_images/activityDetails.png"></td>
-  </tr>
+    </tr>
+    <tr>
+        <td><img src="/sample_images/homeScreen.png"></td>
+        <td><img src="/sample_images/activities.png"></td>
+        <td><img src="/sample_images/activityDetails.png"></td>
+    </tr>
 </table>
 
 
@@ -123,20 +125,3 @@
         <td><img src="/sample_images/report.png"></td>
     </tr>
 </table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
