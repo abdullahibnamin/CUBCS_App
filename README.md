@@ -19,17 +19,16 @@
 </style>
 
 <table style="text-align: center;">
-    <tr>
+<tr>
         <th>Splash screen</th>
         <th>Sign In</th>
         <th>Sign Up</th>
-    </tr>
-
-    <tr>
+</tr>
+<tr>
         <td><img src="/sample_images/splashScreen.png"></td>
         <td><img src="/sample_images/signin.png"></td>
         <td><img src="/sample_images/signup.png"></td>
-    </tr>
+</tr>
 </table>
 
 
