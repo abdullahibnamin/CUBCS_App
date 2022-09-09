@@ -1,6 +1,6 @@
 # CUBCS_App
 
-<style>
+<!---<style>
     table, th, td{
         border: 1px solid black;
         border-collapse: collapse;
@@ -14,7 +14,7 @@
         height: 480px;
         padding: 15px;
     }
-</style>
+</style>---->
 
 <table style="text-align: center;">
     <tr>
