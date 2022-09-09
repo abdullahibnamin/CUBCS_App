@@ -33,94 +33,94 @@
 
 
 <table>
-    <tr>
+<tr>
         <th>Home Screen</th>
         <th>Activities</th>
         <th>Activity Details</th>
 
-    </tr>
-    <tr>
+</tr>
+<tr>
         <td><img src="/sample_images/homeScreen.png"></td>
         <td><img src="/sample_images/activities.png"></td>
         <td><img src="/sample_images/activityDetails.png"></td>
-    </tr>
+</tr>
 </table>
 
 
 <table>
-    <tr>
+<tr>
         <th>Payment Gateway</th>
         <th>About</th>
         <th>Blogs</th>
 
-    </tr>
+</tr>
 
-    <tr>
+<tr>
         <td><img src="/sample_images/paymentGateway.png"></td>
         <td><img src="/sample_images/clubAbout.png"></td>
         <td><img src="/sample_images/blogs.png"></td>
 
-    </tr>
+</tr>
 </table>
 
 
 <table>
-    <tr>
+<tr>
         <th>Blog Content</th>
         <th>Bulletin</th>
         <th>Bulletin Download(PDF)</th>
 
-    </tr>
+</tr>
 
-    <tr>
+<tr>
         <td><img src="/sample_images/blogContent.png"></td>
         <td><img src="/sample_images/bulletin.png"></td>
         <td><img src="/sample_images/bulletinDownload.png"></td>
-    </tr>
+</tr>
 </table>
 
 
 <table>
-    <tr>
+<tr>
         <th>Gallery</th>
         <th>Gallery Image</th>
         <th>Gallery Image Info</th>
 
-    </tr>
+</tr>
 
-    <tr>
+<tr>
         <td><img src="/sample_images/gallery.png"></td>
         <td><img src="/sample_images/galleryImage.png"></td>
         <td><img src="/sample_images/imageDetails.png"></td>
-    </tr>
+</tr>
 </table>
 
 
 <table>
-    <tr>
+<tr>
         <th>Gallery Image Share</th>
         <th>Gallery Image Zoom</th>
         <th>Calender</th>
-    </tr>
+</tr>
 
-    <tr>
+<tr>
         <td><img src="/sample_images/imageShare.png"></td>
         <td><img src="/sample_images/imageZoom.png"></td>
         <td><img src="/sample_images/calender.png"></td>
-    </tr>
+</tr>
 </table>
 
 
 <table>
-    <tr>
+<tr>
         <th>Nav Drawer</th>
         <th>Help</th>
         <th>Report</th>
-    </tr>
+</tr>
 
-    <tr>
+<tr>
         <td><img src="/sample_images/navDrawer.png"></td>
         <td><img src="/sample_images/help.png"></td>
         <td><img src="/sample_images/report.png"></td>
-    </tr>
+</tr>
 </table>
