@@ -55,9 +55,9 @@
     </tr>
 
     <tr>
-        <td><img src="sample_images/paymentGateway.png"></td>
-        <td><img src="sample_images/clubAbout.png"></td>
-        <td><img src="sample_images/blogs.png"></td>
+        <td><img src="/sample_images/paymentGateway.png"></td>
+        <td><img src="/sample_images/clubAbout.png"></td>
+        <td><img src="/sample_images/blogs.png"></td>
 
     </tr>
 </table>
