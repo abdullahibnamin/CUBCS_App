@@ -1,4 +1,4 @@
-<style>
+<!---<style>
     table,
     th,
     td {
@@ -16,7 +16,7 @@
         height: 480px;
         padding: 15px;
     }
-</style>
+</style>--->
 
 <table style="text-align: center;">
 <tr>
