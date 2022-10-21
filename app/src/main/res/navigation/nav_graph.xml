@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.abdullahIbnAmin.cubcs.HomeFragment"
+        android:label=" CUBCS"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_aboutClubFragment"
+            app:destination="@id/aboutClubFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_hubActivitiesListFragment"
+            app:destination="@id/hubActivitiesListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutClubFragment"
+        android:name="com.abdullahIbnAmin.cubcs.AboutClubFragment"
+        android:label=" About"
+        tools:layout="@layout/fragment_about_club">
+        <action
+            android:id="@+id/action_aboutClubFragment_to_clubMemberInfoFragment"
+            app:destination="@id/clubMemberInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/blogsFragment"
+        android:name="com.abdullahIbnAmin.cubcs.BlogsFragment"
+        android:label=" Blogs"
+        tools:layout="@layout/fragment_blogs"/>
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.abdullahIbnAmin.cubcs.GalleryFragment"
+        android:label=" Gallery"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/calenderFragment"
+        android:name="com.abdullahIbnAmin.cubcs.CalenderFragment"
+        android:label=" Events Calendar"
+        tools:layout="@layout/fragment_calender" />
+    <fragment
+        android:id="@+id/clubMemberInfoFragment"
+        android:name="com.abdullahIbnAmin.cubcs.ClubMemberInfoFragment"
+        android:label="fragment_club_member_info"
+        tools:layout="@layout/fragment_club_member_info" />
+    <fragment
+        android:id="@+id/hubActivitiesListFragment"
+        android:name="com.abdullahIbnAmin.cubcs.HubActivitiesListFragment"
+        android:label=" Activities"
+        tools:layout="@layout/fragment_hub_activities_list"/>
+    <fragment
+        android:id="@+id/activitiesDetailsFragment"
+        android:name="com.abdullahIbnAmin.cubcs.ActivitiesDetailsFragment"
+        android:label="fragment_activities_details"
+        tools:layout="@layout/fragment_activities_details" />
+    <fragment
+        android:id="@+id/bulletin_list_Fragment"
+        android:name="com.abdullahIbnAmin.cubcs.BulletinFragment"
+        android:label=" Bulletin"
+        tools:layout="@layout/fragment_bulletin_list" />
+    <fragment
+        android:id="@+id/evenys_info_Fragment"
+        android:name="com.abdullahIbnAmin.cubcs.evenys_info_Fragment"
+        android:label="fragment_evenys_info_"
+        tools:layout="@layout/fragment_evenys_info_" >
+        <action
+            android:id="@+id/action_evenys_info_Fragment_to_eventPaymentFragment"
+            app:destination="@id/eventPaymentFragment" />
+    </fragment>
+    <action
+        android:id="@+id/action_global_homeFragment"
+        app:popUpTo="@id/homeFragment" />
+    <dialog
+        android:id="@+id/helpFragment"
+        android:name="com.abdullahIbnAmin.cubcs.HelpFragment"
+        android:label=" Help"
+        tools:layout="@layout/fragment_help" />
+    <dialog
+        android:id="@+id/reportDialogFragment"
+        android:name="com.abdullahIbnAmin.cubcs.reportDialogFragment"
+        android:label=" Rreport Problem"
+        tools:layout="@layout/fragment_report_dialog" />
+    <fragment
+        android:id="@+id/appAboutFragment"
+        android:name="com.abdullahIbnAmin.cubcs.appAboutFragment"
+        android:label=" App About"
+        tools:layout="@layout/fragment_app_about" />
+
+    <fragment
+        android:id="@+id/eventPaymentFragment"
+        android:name="com.abdullahIbnAmin.cubcs.EventPaymentFragment"
+        android:label="fragment_event_payment"
+        tools:layout="@layout/fragment_event_payment" />
+    <fragment
+        android:id="@+id/uploadBlogFragment"
+        android:name="com.abdullahIbnAmin.cubcs.UploadBlogFragment"
+        android:label="fragment_upload_blog"
+        tools:layout="@layout/fragment_upload_blog" />
+    <activity
+        android:id="@+id/blogContentActivity"
+        android:name="com.abdullahIbnAmin.cubcs.BlogContentActivity"
+        android:label="activity_blog_content"
+        tools:layout="@layout/activity_blog_content" />
+    <activity
+        android:id="@+id/galleryImageViewActivity"
+        android:name="com.abdullahIbnAmin.cubcs.GalleryImageViewActivity"
+        android:label="activity_gallery_image_view"
+        tools:layout="@layout/activity_gallery_image_view" />
+    <activity
+        android:id="@+id/activityDetails"
+        android:name="com.abdullahIbnAmin.cubcs.ActivityDetails"
+        android:label="activity_details"
+        tools:layout="@layout/activity_details" />
+    <fragment
+        android:id="@+id/paymentHistoryFragment"
+        android:name="com.abdullahIbnAmin.cubcs.PaymentHistoryFragment"
+        android:label=" Payment History"
+        tools:layout="@layout/fragment_payment_history" />
+
+
+</navigation>

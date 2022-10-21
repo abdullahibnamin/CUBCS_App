@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/drawable-v24/bottom_shape.xml" value="0.2703125" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/drawable-v24/ic_outline_article_24.xml" value="0.2703125" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/drawable/edit_btn_bg.xml" value="0.2703125" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.26481481481481484" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/drawable/ic_baseline_event_24.xml" value="0.2703125" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/drawable/ic_baseline_favorite_filled_24.xml" value="0.2703125" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/drawable/textcursorcolor.xml" value="0.2703125" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/drawable/tlr_curve_corner.xml" value="0.2703125" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/activity_blog_content.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/activity_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/activity_event_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/activity_forgot_password.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/activity_gallery_image_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/activity_help_dialog.xml" value="0.264" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/activity_no_internet.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/activity_payment_gateway.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/activity_recycler_list_items_for_gallery.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/activity_registration.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/activity_report_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/calendar_day_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/fragment_about_club.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/fragment_activities_details.xml" value="0.13020833333333334" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/fragment_activity_payment.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/fragment_app_about.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/fragment_blog_content.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/fragment_blogs.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/fragment_bulletin_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/fragment_calender.xml" value="0.25" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/fragment_club_member_info.xml" value="0.13020833333333334" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/fragment_event_list_.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/fragment_evenys_info_.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/fragment_gallery.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/fragment_help.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/fragment_hub_activities_list.xml" value="0.264" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/fragment_hubs_info.xml" value="0.13020833333333334" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/fragment_logout.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/fragment_payment_history.xml" value="0.24010416666666667" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/fragment_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/fragment_report_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/fragment_upload_blog.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/hub_activites_list_items.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/hub_activities_list_items.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/items.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/payment_history_details_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/recycler_list_items_event_calender.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/recycler_list_items_for_gallery.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/recycler_list_items_layout.xml" value="0.264" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/recycler_list_items_payment_history_details_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/layout/shimmer_effect_design.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyNavFragmentApp/app/src/main/res/menu/nav_drawer_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

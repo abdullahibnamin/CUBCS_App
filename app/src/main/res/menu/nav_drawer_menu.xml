@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    <item android:title="Account">-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/profileFragment"-->
+<!--                android:icon="@drawable/ic_baseline_account_circle_24"-->
+<!--                android:title="Profile"-->
+<!--                app:cnb_iconColor="#FF3B3B" />-->
+<!--            <item-->
+<!--                android:id="@+id/inboxFragment"-->
+<!--                android:icon="@drawable/ic_round_forward_to_inbox_24"-->
+<!--                android:title="Inbox"-->
+<!--                app:cnb_iconColor="#FF3B3B" />-->
+
+<!--            <item-->
+<!--                android:id="@+id/notificationFragment"-->
+<!--                android:icon="@drawable/ic_outline_notifications_24"-->
+<!--                android:title="Notification"-->
+<!--                app:cnb_iconColor="#FF3B3B" />-->
+
+<!--            <item-->
+<!--                android:id="@+id/favouriteFragment"-->
+<!--                android:icon="@drawable/ic_outline_bookmark_border_24"-->
+<!--                android:title="Favourites"-->
+<!--                app:cnb_iconColor="#FF3B3B" />-->
+<!--        </menu>-->
+<!--    </item>-->
+
+    <item android:title="Info">
+        <menu>
+            <item
+                android:id="@+id/paymentHistoryFragment"
+                android:icon="@drawable/ic_baseline_payment_24"
+                android:title="Payment History"
+                app:cnb_iconColor="#FF3B3B" />
+        </menu>
+    </item>
+
+    <item android:title="Settings &amp; Privacy">
+        <menu>
+<!--            <item-->
+<!--                android:id="@+id/settingsFragment"-->
+<!--                android:icon="@drawable/ic_baseline_settings_24"-->
+<!--                android:title="Settings"-->
+<!--                app:cnb_iconColor="#FF3B3B" />-->
+            <item
+                android:id="@+id/appAboutFragment"
+                android:icon="@drawable/ic_baseline_description_24"
+                android:title="About"
+                app:cnb_iconColor="#FF3B3B" />
+            <item
+                android:id="@+id/helpFragment"
+                android:icon="@drawable/ic_baseline_help_24"
+                android:title="Help"
+                app:cnb_iconColor="#FF3B3B" />
+            <item
+                android:id="@+id/reportDialogFragment"
+                android:icon="@drawable/ic_baseline_report_24"
+                android:title="Report a problem"
+                app:cnb_iconColor="#FF3B3B" />
+        </menu>
+    </item>
+
+    <item android:title="Logout">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_baseline_logout_24"
+                android:title="Logout"
+                app:cnb_iconColor="#FF3B3B" />
+        </menu>
+    </item>
+
+</menu>
