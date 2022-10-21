@@ -1,3 +1,6 @@
+<h4>Admin Panel Link</h4>
+<a href="https://github.com/abdullahibnamin/CUBCS_Admin">Link</a>
+
 <!---<style>
     table,
     th,
