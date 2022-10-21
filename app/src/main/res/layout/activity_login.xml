@@ -35,7 +35,6 @@
 
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/loginEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="25dp"
@@ -45,6 +44,7 @@
             app:startIconDrawable="@drawable/ic_baseline_alternate_email_24">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/loginEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress" />
@@ -52,7 +52,6 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/loginPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="25dp"
@@ -62,6 +61,7 @@
             app:startIconDrawable="@drawable/ic_outline_lock_24">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/loginPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword" />
@@ -82,7 +82,7 @@
             android:textStyle="normal" />
 
         <Button
-            android:id="@+id/signinContinueBtn"
+            android:id="@+id/loginContinueBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="25dp"

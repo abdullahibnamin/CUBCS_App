@@ -1,5 +1,6 @@
 package com.abdullahIbnAmin.cubcs
 
+import android.content.Context
 import android.content.Intent
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
@@ -8,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.annotation.RequiresApi
+import com.auth0.android.jwt.JWT
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_details.*
 import java.time.LocalDateTime
@@ -26,6 +28,12 @@ class ActivityDetails : AppCompatActivity() {
         supportActionBar!!.setDisplayShowHomeEnabled(true)
         supportActionBar!!.setIcon(R.drawable.ic_launcher_cub)
         supportActionBar!!.title = " $activityName"
+
+        val sharedPref = getSharedPreferences("CUBCS_loginPref", Context.MODE_PRIVATE)
+        val jwt = sharedPref.getString("JWT", null)
+
+        val jwtObj = JWT(jwt.toString())
+        val email = jwtObj.subject
 
         val activityId: String =  intent.getStringExtra("activityId").toString()
         val activityImage: String =  intent.getStringExtra("activityImage").toString()
@@ -47,7 +55,7 @@ class ActivityDetails : AppCompatActivity() {
 
 
 //        ActivityUploadedBy.text = activityUploadedBy
-        ActivityUploadedBy.text = "Name"
+        ActivityUploadedBy.text = "Abdullah Ibn Amin"
         ActivityDateTime.text = formattedDateTime
         ActivityName.text = activityName
         startDate.text = "Start Date: $activityStartDate"
@@ -63,8 +71,8 @@ class ActivityDetails : AppCompatActivity() {
             if(activityAmount.toFloat() > 0.00){
                 val intent = Intent(this, PaymentGatewayActivity::class.java)
                 intent.putExtra("activityId", activityId)
-                intent.putExtra("custName", "Abdulla")
-                intent.putExtra("custEmail", "email@gmail.com")
+                intent.putExtra("custName", "Abdullah")
+                intent.putExtra("custEmail", email)
                 startActivity(intent)
             }
             else{

@@ -76,6 +76,12 @@ dependencies {
 
     // TouchImageView
     implementation 'com.github.chrisbanes:PhotoView:2.3.0'
+
+    // JWT
+    implementation 'com.auth0.android:jwtdecode:2.0.1'
+
+    // Compact Calender View
+    implementation 'com.github.sundeepk:compact-calendar-view:3.0.0'
 }
 
 

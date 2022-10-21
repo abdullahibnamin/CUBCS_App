@@ -33,7 +33,7 @@
             android:id="@+id/recycler_blogs_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:listitem="@layout/recycler_list_items_layout"/>
+            tools:listitem="@layout/recycler_list_items_layout" />
 
     </LinearLayout>
 

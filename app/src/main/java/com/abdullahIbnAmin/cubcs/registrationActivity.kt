@@ -8,11 +8,8 @@ import android.view.WindowManager
 import android.widget.Toast
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.abdullahIbnAmin.cubcs.models.DeviceInfoModel
 import com.abdullahIbnAmin.cubcs.models.SignUp
 import com.abdullahIbnAmin.cubcs.models.SignUpResponse
-import com.abdullahIbnAmin.cubcs.networkCall.RetroInstance
-import com.abdullahIbnAmin.cubcs.networkCall.RetroService
 import com.abdullahIbnAmin.cubcs.viewModel.MainActivityViewModel
 import kotlinx.android.synthetic.main.activity_registration.*
 
@@ -49,10 +46,10 @@ class registrationActivity : AppCompatActivity() {
             }
 
             else{
-
                 viewModel = ViewModelProvider(this).get(MainActivityViewModel::class.java)
                 viewModel.getCreateNewUserObserver().observe(this, Observer<SignUpResponse> {
                     if(it == null){
+                        signUpBtn.text = "Continue"
                         Toast.makeText(this, "Something went wrong", Toast.LENGTH_LONG).show()
                     }
                     else{

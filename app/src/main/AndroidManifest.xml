@@ -8,6 +8,9 @@
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
 
     <application
         android:allowBackup="true"
@@ -17,6 +20,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyNavFragmentApp"
         android:usesCleartextTraffic="true">
+
+        <receiver
+            android:name=".Notification"
+            android:enabled="true"/>
+        <activity
+            android:name=".EventDetail"
+            android:exported="true" />
         <activity
             android:name=".PaymentGatewayActivity"
             android:exported="true" />
@@ -42,10 +52,12 @@
         </activity>
         <activity
             android:name=".registrationActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
         <activity
             android:name=".ForgotPasswordActivity"
-            android:exported="true">
+            android:exported="true"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
 
             <!-- <intent-filter> -->
             <!-- <action android:name="android.intent.action.MAIN" /> -->
@@ -57,7 +69,8 @@
         </activity>
         <activity
             android:name=".LoginActivity"
-            android:exported="true">
+            android:exported="true"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
 
             <!-- <intent-filter> -->
             <!-- <action android:name="android.intent.action.MAIN" /> -->

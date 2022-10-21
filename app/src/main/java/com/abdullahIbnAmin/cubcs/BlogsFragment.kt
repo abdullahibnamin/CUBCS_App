@@ -8,7 +8,6 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.abdullahIbnAmin.cubcs.models.Blog
@@ -28,7 +27,6 @@ class BlogsFragment : Fragment(){
         initFunViewModel()
         return view
     }
-
 
     fun initViewModel(view: View){
         recyclerAdapterForBlogs = RecyclerAdapterForBlogs()

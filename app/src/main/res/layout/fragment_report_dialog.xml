@@ -24,7 +24,6 @@
             android:textColor="@color/black"/>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/textField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Subject"
@@ -43,10 +42,12 @@
             app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/reportSubject"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:maxLength="200"
-                android:inputType="text" />
+                android:inputType="text"
+                android:textCursorDrawable="@drawable/textcursorcolor"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -67,6 +68,7 @@
             app:hintTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/reportDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:maxLength="1000"
@@ -75,12 +77,13 @@
                 android:scrollbarStyle="insideInset"
                 android:scrollHorizontally="true"
                 android:scrollbars="vertical"
-                android:gravity="start"/>
+                android:gravity="start"
+                android:textCursorDrawable="@drawable/textcursorcolor"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/reportSubmitBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Send"

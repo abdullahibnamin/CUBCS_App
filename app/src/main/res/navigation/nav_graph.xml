@@ -73,11 +73,6 @@
     <action
         android:id="@+id/action_global_homeFragment"
         app:popUpTo="@id/homeFragment" />
-    <fragment
-        android:id="@+id/profileFragment"
-        android:name="com.abdullahIbnAmin.cubcs.ProfileFragment"
-        android:label=" Profile"
-        tools:layout="@layout/fragment_profile" />
     <dialog
         android:id="@+id/helpFragment"
         android:name="com.abdullahIbnAmin.cubcs.HelpFragment"
@@ -93,11 +88,7 @@
         android:name="com.abdullahIbnAmin.cubcs.appAboutFragment"
         android:label=" App About"
         tools:layout="@layout/fragment_app_about" />
-    <fragment
-        android:id="@+id/activityPaymentFragment"
-        android:name="com.abdullahIbnAmin.cubcs.ActivityPaymentFragment"
-        android:label="fragment_activity_payment"
-        tools:layout="@layout/fragment_activity_payment" />
+
     <fragment
         android:id="@+id/eventPaymentFragment"
         android:name="com.abdullahIbnAmin.cubcs.EventPaymentFragment"
@@ -123,6 +114,11 @@
         android:name="com.abdullahIbnAmin.cubcs.ActivityDetails"
         android:label="activity_details"
         tools:layout="@layout/activity_details" />
+    <fragment
+        android:id="@+id/paymentHistoryFragment"
+        android:name="com.abdullahIbnAmin.cubcs.PaymentHistoryFragment"
+        android:label=" Payment History"
+        tools:layout="@layout/fragment_payment_history" />
 
 
 </navigation>

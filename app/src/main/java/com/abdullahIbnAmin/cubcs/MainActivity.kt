@@ -1,9 +1,13 @@
 package com.abdullahIbnAmin.cubcs
 
+import android.content.Context
+import android.content.Intent
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
+import android.widget.Toast
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
@@ -45,40 +49,23 @@ class MainActivity : AppCompatActivity(){
 
         nav_drawer.setupWithNavController(navController)
 
-//        nav_drawer.setNavigationItemSelectedListener(this)
-//        d = findViewById(R.id.drawer_layout)
+        nav_drawer.menu.findItem(R.id.logout).setOnMenuItemClickListener { MenuItem ->
+
+            val sharedPref = getSharedPreferences("CUBCS_loginPref", Context.MODE_PRIVATE)
+            val sharedEditor = sharedPref.edit()
+            sharedEditor.remove("JWT").apply()
+
+            val intent = Intent(this, LoginActivity::class.java)
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
+            startActivity(intent)
+            finish()
+            true
+        }
     }
     override fun onSupportNavigateUp(): Boolean {
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
-//
-//    override fun onNavigationItemSelected(item: MenuItem): Boolean {
-//        when(item.itemId){
-//            R.id.reportFragmentDialog -> {
-//                val view: View = layoutInflater.inflate(R.layout.activity_report_dialog, null)
-//                val dialog = BottomSheetDialog(this)
-//                dialog.setContentView(view)
-//                dialog.show()
-//            }
-//            R.id.appAboutFragment -> {
-//                Toast.makeText(applicationContext, "Developed By: Name name", Toast.LENGTH_LONG).show()
-//            }
-//            R.id.helpFragment -> {
-//                val view: View = layoutInflater.inflate(R.layout.activity_help_dialog, null)
-//                val dialog = BottomSheetDialog(this)
-//                dialog.setContentView(view)
-//                dialog.show()
-//            }
-////            R.id.profileFragment -> {
-////                val fm = supportFragmentManager.beginTransaction()
-////                fm.replace(R.id.fragmentContainerView, ProfileFragment())
-////                fm.commit()
-////            }
-//        }
-//
-//        d.closeDrawer(GravityCompat.START)
-//        return true
-//    }
+
 
 }
 
